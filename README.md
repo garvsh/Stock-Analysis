@@ -1,6 +1,52 @@
+# Installation Guide
+
+This guide provides step-by-step instructions for setting up the necessary Conda environment and installing the transformation module.
+
+## Setting Up the Conda Environment
+
+Follow these steps to create and activate the required Conda environment:
+
+### Step 1: Create the Conda Environment
+
+Use the following command to create a Conda environment based on the `environment.yml` file. This file should list all the necessary dependencies.
+
+```bash
+conda env create -f environment.yml
+```
+
+### Step 2: Create the Conda Environment
+
+Once the environment is successfully created, you can activate it using the following command:
+```bash
+conda activate garsh
+```
+
+# Installing the Transformation Module
+
+To install the transformation module, follow these steps:
+
+1. **Open your terminal or command prompt** and navigate to the directory containing the `setup.py` file of the transformation module.
+
+2. **Run the following command**:
+
+    ```bash
+    pip install -e .
+    ```
+
+This command installs the transformation module in editable mode. This means that any changes you make to the source code will be immediately reflected in the module without needing to reinstall it.
+
+## Usage
+
+After installing the module, you can import it and use the classes or functions from the `transform` Python file in your projects as follows:
+
+```python
+from transformation import transform
+# Your code using the module here
+
+
 # TCS Stock Analysis
 
-This repository contains the analysis and prediction of historical stock data for META up to November 2023. The project encompasses feature engineering, the development of a custom pipeline, and the application of various machine learning models for stock price prediction.
+This repository contains the analysis and prediction of historical stock data for META up to November 2023. The project encompasses feature engineering, the development of a custom pipeline, and the application of various machine-learning models for stock price prediction.
 
 ## Feature Engineering
 
