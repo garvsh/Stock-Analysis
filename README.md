@@ -42,6 +42,7 @@ After installing the module, you can import it and use the classes or functions 
 ```python
 from transformation import transform
 # Your code using the module here
+```
 
 
 # TCS Stock Analysis
