@@ -1,0 +1,10 @@
+name: garvsh
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - pip
+  - pip:
+      - -r requirements.txt
